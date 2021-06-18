@@ -1,0 +1,134 @@
+$background :#415165;
+$uppercaseTitle:#A00404;
+$line:#96A9C4;
+
+*{ 
+    //outline: 1px solid pink;
+    box-sizing: border-box;
+}
+
+// a標籤的四種狀態都和本身顏色保持一致
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+}
+
+.b-bottom{
+    padding: 10px 0;
+    border-bottom:1px solid #3d3d3d;
+
+}
+
+//樣式設計
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    h1{
+        font-size: 80px;
+        padding-bottom:24px;
+    }
+}
+
+.profile{
+    img{
+        margin: 48px auto;
+    }
+
+    font: lighter 24px/32px SF Pro Text sans-serif;
+    .information{
+        margin-bottom: 24px;
+    }
+}
+.title{
+    font: normal 32px SF Pro Text sans-serif;
+    margin-bottom: 10px;
+    .UppercaseTitle{
+        font-weight: normal;
+        font-size: 24px;
+        color: $uppercaseTitle;
+    }
+}
+.educationText{
+    margin-bottom: 24px;
+}
+.skills{
+    padding: 32px;
+    margin-bottom: 80px;
+    h2{
+        text-align: center;
+    }
+    
+    background-color: $background;
+    color: #ffffff;
+    .skillsTitle{
+        
+        font: normal 32px SF Pro Text sans-serif;
+        margin-bottom: 40px;
+        border-bottom:1px solid #ffffff;
+        span{
+            font-size: 24px;
+        }
+    }
+    ul{
+        margin: 0 40%;
+        
+        border-left: 1px solid $line;
+        font: lighter 24px/32px SF Pro Text sans-serif;
+        
+        li{
+            padding: 10px 0 10px 24px;
+        }
+    }
+}
+.workExperiencesList{
+    h3{
+        font: normal 24px/32px SF Pro Text sans-serif;
+        font-weight: normal;
+        margin-top: 32px;
+    }
+    ul{
+        margin: 0 20px;
+        width: 50%;
+        border-left: 1px solid $line;
+        li{
+            padding-left: 24px;
+        }
+    }
+}
+
+.experiences{
+
+    p{
+        line-height: 30px;
+        margin-bottom: 32px;
+
+    }
+}
+
+
+.footer{
+    margin: 70px 0;
+    padding: 32px;
+    background-color: $background;
+    color: #ffffff;
+    text-align: center;
+    font: lighter 24px/32px SF Pro Text sans-serif;
+    .UppercaseTitle{
+        color: #ffffff;
+    }
+    h2{
+        border-bottom:1px solid #ffffff;
+    }
+
+    .community{
+        margin: 20px;
+        display: block;
+    }
+    a{
+        color: #ffffff;
+        margin: 0 12px;
+    }
+    a:hover{
+        opacity:0.3;
+    }
+}
